@@ -100,8 +100,6 @@ ul{
     display: none;
 } /* Hide checkbox */
 
-
-
 /* Toggle menu icon */
 .side-menu:checked ~ nav{
     max-height: 100%;
@@ -119,9 +117,23 @@ ul{
 }
 
 
+.rodape {
+    width: 100vw;
+    text-align: center;
+}
 
-/* Responsiveness */
-@media (min-width: 768px) {
+.conteudo {
+    background-color: rgb(130, 130, 219);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "geral";
+}
+.geral {
+    width: 100vw;
+    grid-area: geral;
+}
+
+@media (min-width: 600px) {
     .nav{
         max-height: none;
         top: 0;
@@ -147,4 +159,44 @@ ul{
         width: 15vh;
         margin: 5px;
     }
+    .conteudo {
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+         "geral geral";
+    }
+
+}
+
+@media (min-width: 1228px) {
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+    }
+    .menu li{
+        float: left;
+    }
+    .menu a:hover{
+        background-color: transparent;
+        color: var(--gray);
+
+    }
+
+    .hamb{
+        display: none;
+    }
+
+    #logo {
+        width: 15vh;
+        margin: 5px;
+    }
+    .conteudo {
+        grid-template-columns: 33% 34% 33%;
+        grid-template-areas: 
+         "geral geral geral";
+    }
+
 }

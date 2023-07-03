@@ -1,3 +1,2 @@
 # Segundo Trimestre-mobile-first
-
-Estela-13
+JESUS - 50
