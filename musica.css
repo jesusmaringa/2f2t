@@ -146,7 +146,7 @@ div[class^="item-"]{
     height: 400px;
     margin: 2px;
 }
-@media (min-width: 600px) {
+@media (min-width: 820px) {
     .nav{
         max-height: none;
         top: 0;
@@ -166,8 +166,8 @@ div[class^="item-"]{
         display: none;
     }
     #logo {
-        width: 16vh;
-        height: 16vh;
+        width: 8vh;
+        height: 8vh;
     }
     .conteudo-musica {
         display: grid;
@@ -176,7 +176,7 @@ div[class^="item-"]{
     }
 }
 
-@media (min-width: 1228px) {
+@media (min-width: 1024px) {
     .nav{
         max-height: none;
         top: 0;
