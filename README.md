@@ -1,2 +1,2 @@
-# Segundo Trimestre-mobile-first
-JESUS - 50
+# segundo trimestre - mobile-first
+Beatriz Beanhossi Lopes - N°10
